@@ -1,0 +1,146 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing:border-box ;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	line-height: 1.5;
+}
+
+/*=======Header=======*/
+
+.hero{
+	display:flex;
+	justify-content: left;
+	align-items: flex-start;
+	
+}
+.hero .title{
+	color: black;
+	font-size: 20px;
+	padding-left: 5%;  
+	padding-top: 4%;
+}
+
+
+.draw .image{
+	max-width: 100%;
+	height: 500px;
+	padding-left: 5%;
+	padding-top: 2%;
+}
+
+/*======End of Header=====*/
+.loginbox{
+	width: 320px;
+	height: 420px;
+	background:white;
+	color :black;
+	top:35%;
+	left: 80%;
+	position: absolute;
+	transform: translate(-50%,-20%);
+	box-sizing:  border-box;
+	border-radius: 50px;
+	padding: 70px 30px;
+}
+h1{
+	margin: 0;
+	padding: 40px 0 0px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 700;
+	color: lightskyblue;
+}
+p{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+}
+.loginbox input{
+	width: 100%;
+	margin-bottom: 20px ;
+	font-size: 20px;
+}
+.loginbox input[type="text"], input[type="password"]
+{
+	border: 5px 20px 5px 20px;
+	border-color: black;
+	height: 40px;
+	padding-left: 5%;
+	font-size:medium;
+	font-weight: bold;
+	border-radius: 10px;
+}
+
+.loginbox input[type="submit"]{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: orange;
+	color: black;
+	border-radius: 15px;
+	font-size: 18px;
+}
+
+.loginbox a{
+	text-decoration: none;
+	font-size: 15px;
+	color: black;
+	font-weight: bold;
+}
+
+.box{
+	width: 320px;
+	height: 100px;
+	background:transparent;
+	color : white;
+	top:10%;
+	left: 83%;
+	position: absolute;
+	transform: translate(-50%,-20%);
+	box-sizing:  border-box;
+	padding: 30px 10px;
+	padding-right: 5%;
+}
+
+.box input[type="signin"]{
+	border: none;
+	outline: none;
+	width: 80px;
+	height: 40px;
+	background: orange;
+	color: black;
+	font-size: 14px;
+	padding: 6%;
+}
+
+
+
+.boxes{
+	width: 320px;
+	height: 100px;
+	background:transparent;
+	color : black;
+	top:10%;
+	left: 92%;
+	position: absolute;
+	transform: translate(-50%,-20%);
+	box-sizing:  border-box;
+	padding: 30px 10px;
+	padding-right: 5%;
+}
+
+.boxes input[type="signup"]{
+	border: none;
+	outline: none;
+	width: 80px;
+	height: 40px;
+	background: orange;
+	color: black;
+	font-size: 14px;
+	padding-left: 6%;
+}
